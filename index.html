@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Pièce qui attend</title>
+<meta name="description" content="Un jeu d&#x27;horreur et d&#x27;enquête à la première personne. Vingt ans après la disparition de ton petit frère, tu reviens dans la maison de ton enfance.">
+<link rel="alternate" hreflang="fr" href="">
+<link rel="alternate" hreflang="en" href="en/">
+<meta property="og:title" content="La Pièce qui attend">
+<meta property="og:description" content="Un jeu d&#x27;horreur et d&#x27;enquête à la première personne. Vingt ans après la disparition de ton petit frère, tu reviens dans la maison de ton enfance.">
+<meta property="og:image" content="static/img/partage.jpg">
+<link rel="icon" href="static/img/icone.png">
+<link rel="stylesheet" href="static/css/site.css">
+</head>
+<body>
+<div class="ampoule" aria-hidden="true"></div>
+<header class="nav"><a class="marque" href="">DOSSIER N° 17-03</a><button class="menu-bouton" type="button" aria-expanded="false" aria-controls="menu">MENU</button><ul id="menu"><li><a href="" aria-current="page">Le dossier</a></li><li><a href="guides/">Guides</a></li><li><a href="presse/">Presse</a></li><li class="langues"><a href="" aria-current="true" lang="fr">FR</a> <a href="en/" aria-current="false" lang="en">EN</a></li><li><a class="bouton plein" style="border-color:var(--laiton);background:var(--laiton);color:#120e08" href="#steam">BIENTÔT SUR STEAM</a></li></ul></header>
+<main>
+
+<section class="entree" aria-label="La Pièce qui attend">
+  <div class="facade" aria-hidden="true">
+    <img src="static/img/facade.jpg" alt="">
+    <img class="nb" src="static/img/facade_nb.jpg" alt="">
+    <img class="fantome" src="static/img/facade_nb_fantome.jpg" alt="">
+  </div>
+  <div class="avis">
+    <div class="entete"><span>AVIS DE RECHERCHE</span><span>RÉF. NICO, 6 ANS</span></div>
+    <h1>La Pièce<br>qui attend</h1>
+    <p class="accroche">Certaines maisons ne sont pas hantées. Elles se souviennent.</p>
+    <p class="genre">Horreur psychologique · Enquête · Première personne · PC · 4,99 €</p>
+    <div class="fiche">Disparu pendant une partie de cache-cache.<br>Tu lui avais promis de revenir le chercher.<br>Vingt ans plus tard, tu rentres. Le courant est coupé.</div>
+    <div class="actions">
+      <a class="bouton plein" href="#steam">BIENTÔT SUR STEAM</a>
+      <a class="bouton vide" href="#bande">BANDE-ANNONCE</a>
+    </div>
+    <div class="tampon" aria-hidden="true">NON CLASSÉ</div>
+  </div>
+  <button class="eclat-bouton" type="button" data-couper="Couper les éclats" data-remettre="Remettre les éclats">Couper les éclats</button>
+  <button class="son-bouton" type="button" aria-pressed="false" data-on="Couper l'ambiance sonore" data-off="Allumer l'ambiance sonore" aria-label="Allumer l'ambiance sonore" data-src="static/audio/roomtone.mp3">SON</button>
+</section>
+<section class="bande" id="bande" aria-label="BANDE-ANNONCE"><div class="ecran"><img src="static/img/bande_affiche.jpg" alt=""><button class="lecture" type="button" data-video="static/video/bande_annonce_fr.mp4">▶ BANDE-ANNONCE (56 s)</button></div></section>
+<section class="affaire" aria-labelledby="affaire-titre">
+  <div class="pv">
+    <div class="pv-ref">PIÈCE N° 1 · AFFAIRE NICO</div>
+    <h2 id="affaire-titre">Procès-verbal</h2>
+    <p>Nuit du 17 mars. En bas, les parents se disputaient. En haut, deux frères jouaient à cache-cache pour ne plus entendre.</p><p>L&#x27;aîné, dix ans, a dit au petit : « Reste caché. Je viens te chercher quand c&#x27;est fini. Promis. »</p><p>Nico, six ans, n&#x27;a jamais été <button type="button" class="caviar" aria-label="Mot caviardé">retrouvé</button>. L&#x27;horloge du salon s&#x27;est arrêtée à <span class="caviar fixe" aria-label="Mot caviardé">██ h ██</span>.</p><p>Vingt ans plus tard, la maison n&#x27;a pas été vendue. Personne n&#x27;y vit. Pourtant, elle <button type="button" class="caviar" aria-label="Mot caviardé">attend</button>.</p>
+    <p class="pv-aide">Touche un mot caviardé pour le lire. Pas tous.</p>
+  </div>
+</section>
+<section class="vivre" aria-labelledby="vivre-titre">
+  <h2 class="section-titre" id="vivre-titre">Ce que tu vas vivre</h2>
+  <div class="torche" data-vide="Plus de pile.">
+    <img src="static/img/torche.jpg" alt="La chambre d'un enfant, dans le noir">
+    <div class="torche-noir" aria-hidden="true"></div>
+    <div class="torche-texte"><strong>Promène ta lampe.</strong> <span>Bouge la souris, ou le doigt, dans la pièce. La pile ne dure pas.</span></div>
+    <div class="torche-pile" aria-hidden="true"><span class="lib">LAMPE</span><span class="jauge"><i></i></span><span class="pc">100 %</span></div>
+    <button type="button" class="torche-recharger" hidden>CHANGER LA PILE</button>
+  </div>
+  <div class="moments"><article class="moment"><img src="static/img/lumiere.jpg" alt="Une suspension qui s&#x27;allume dans le noir" loading="lazy"><h3>Éclaire</h3><p>Une lampe qui se vide, des piles rares, quelques fusibles pour toute la maison. Éclairer une pièce, c&#x27;est en laisser une autre dans le noir.</p></article><article class="moment"><img src="static/img/ecoute.jpg" alt="Un magnétophone sur une table du grenier" loading="lazy"><h3>Écoute</h3><p>Une radio qui grésille sur une fréquence oubliée, des bandes magnétiques, des voix. La maison parle à qui sait l&#x27;écouter.</p></article><article class="moment"><img src="static/img/relie.jpg" alt="Un mur de liège couvert de fiches" loading="lazy"><h3>Relie</h3><p>Notes, photographies, carnets. Sur le mur de l&#x27;enquête, chaque fil tendu raconte un peu plus ce que la famille a tu.</p></article><article class="moment"><img src="static/img/etoiles.jpg" alt="Des étoiles phosphorescentes au plafond d&#x27;une chambre d&#x27;enfant" loading="lazy"><h3>Compte</h3><p>Ferme les yeux et compte, comme avant. Dans le noir, quelque chose en profite pour s&#x27;approcher.</p></article></div>
+</section>
+<section class="gens" aria-labelledby="gens-titre">
+  <h2 class="section-titre" id="gens-titre">Les gens de la maison</h2>
+  <div class="gens-mur"><figure class="gens-photo"><img src="static/img/art_toi.jpg" alt="Un homme, de dos, une lampe torche à la main, à l&#x27;entrée d&#x27;un couloir sombre" loading="lazy"><figcaption>Toi. Tu avais dix ans. Tu avais promis.</figcaption></figure><figure class="gens-photo"><img src="static/img/art_nico.jpg" alt="Une chambre d&#x27;enfant vide, la nuit : des lits superposés, des dessins, une boîte à musique" loading="lazy"><figcaption>Sa chambre. Rien n&#x27;a bougé.</figcaption></figure><figure class="gens-photo"><img src="static/img/art_mere.jpg" alt="Une femme seule à la table de la cuisine, la nuit, sous une lampe" loading="lazy"><figcaption>Ta mère. Elle ne dormait plus.</figcaption></figure><figure class="gens-photo"><img src="static/img/art_pere.jpg" alt="Un homme près d&#x27;une vieille radio, le visage dans l&#x27;ombre" loading="lazy"><figcaption>Ton père. On l&#x27;entendait rentrer de loin.</figcaption></figure><figure class="gens-photo"><img src="static/img/art_presence.jpg" alt="Une silhouette voilée, sans visage, au fond d&#x27;un couloir" loading="lazy"><figcaption>Et dans le couloir, quelque chose. N&#x27;allume pas.</figcaption></figure></div>
+</section>
+<section class="mur" aria-labelledby="temoins"><h2 id="temoins">Témoins (images du jeu)</h2><div class="polaroids"><figure class="polaroid"><img src="static/img/salon.jpg" alt="Le salon, à la lampe torche" loading="lazy"><figcaption>le salon, 23 h 12</figcaption></figure><figure class="polaroid"><img src="static/img/grenier.jpg" alt="Le grenier, sous une ampoule nue" loading="lazy"><figcaption>le grenier</figcaption></figure><figure class="polaroid"><img src="static/img/chambre_noire.jpg" alt="Une chambre noire éclairée en rouge" loading="lazy"><figcaption>la chambre noire</figcaption></figure><figure class="polaroid"><img src="static/img/cave.jpg" alt="L&#x27;établi de la cave" loading="lazy"><figcaption>la cave</figcaption></figure></div></section>
+<section class="config" id="configuration" aria-labelledby="config-titre"><div class="config-fiche"><h2 id="config-titre">Configuration requise</h2><p class="config-intro">Le jeu n&#x27;a qu&#x27;un niveau de qualité : tout au maximum. Les deux paliers se distinguent par la cadence : Recommandé pour 60 images par seconde, Ultra pour 120, sur un écran qui les affiche.</p><div class="config-defile"><table><thead><tr><td></td><th scope="col"><span class="def">1080p</span><span class="palier">Recommandé</span><span class="cadence">60 images/s</span></th><th scope="col"><span class="def">1080p</span><span class="palier">Ultra</span><span class="cadence">120 images/s</span></th><th scope="col"><span class="def">4K</span><span class="palier">Recommandé</span><span class="cadence">60 images/s</span></th><th scope="col"><span class="def">4K</span><span class="palier">Ultra</span><span class="cadence">120 images/s</span></th></tr></thead><tbody><tr><th scope="row">Système</th><td>Windows 10 ou 11, 64 bits</td><td>Windows 10 ou 11, 64 bits</td><td>Windows 10 ou 11, 64 bits</td><td>Windows 10 ou 11, 64 bits</td></tr><tr><th scope="row">Processeur</th><td>Intel Core i5-9600K ou AMD Ryzen 5 3600</td><td>Intel Core i5-12600K ou AMD Ryzen 5 7600</td><td>Intel Core i5-9600K ou AMD Ryzen 5 3600</td><td>Intel Core i5-12600K ou AMD Ryzen 5 7600</td></tr><tr><th scope="row">Carte graphique</th><td>NVIDIA GTX 1060 6 Go ou AMD RX 580 8 Go</td><td>NVIDIA RTX 3060 ou AMD RX 6600 XT</td><td>NVIDIA RTX 2070 Super ou AMD RX 5700 XT</td><td>NVIDIA RTX 3080 ou AMD RX 6800 XT</td></tr><tr><th scope="row">Mémoire</th><td>16 Go</td><td>16 Go</td><td>16 Go</td><td>16 Go</td></tr><tr><th scope="row">Espace disque</th><td>600 Mo</td><td>600 Mo</td><td>600 Mo</td><td>600 Mo</td></tr></tbody></table></div><p class="config-note">Mesuré sur la machine de développement (portable Intel Core i9-10980HK, NVIDIA RTX 2080 Super) : 60 images par seconde en médiane, en 1080p comme en 4K, avec des creux vers 40 dans les pièces les plus chargées. Les autres configurations sont des équivalences estimées à partir de cette mesure. Bon à savoir : le jeu sollicite davantage le processeur que la carte graphique, si bien que la 4K coûte à peine plus cher que la 1080p. Le réglage « Résolution de rendu » est là si besoin. Mémoire : le jeu occupe environ 6 Go à lui seul (mesuré sur une partie complète de 44 minutes, sans hausse au fil de la partie), d’où les 16 Go conseillés.</p></div></section>
+<section class="etiquette-zone" id="steam"><div class="etiquette"><div class="quoi"><div class="petit">PIÈCE À EMPORTER</div><div class="grand">Ouvre le dossier.</div><div class="infos">13 novembre 2026 · Windows · Français, anglais · 4,99 €</div></div><span class="bouton plein bientot">BIENTÔT SUR STEAM</span></div><p class="steam-note">La page Steam ouvre bientôt : la liste de souhaits arrive avec elle.</p></section>
+<form class="lettre" action="#" method="post"><label for="courriel">Être prévenu de la sortie</label><div class="champ"><input id="courriel" name="courriel" type="email" autocomplete="email" placeholder="ton adresse courriel" required><button type="submit">ME PRÉVENIR</button></div><p class="lettre-note" role="status" hidden>Les inscriptions ouvriront avec la page Steam. Rien n'a été envoyé.</p></form>
+
+</main>
+<footer class="pied"><p>Avertissement de contenu : ce jeu parle de violence faite à un enfant, de disparition et de deuil. Il contient des scènes d&#x27;enfermement, de longs passages dans l&#x27;obscurité complète, des sons brusques et de brefs éclats rouges à l&#x27;écran. Ce site fait brièvement clignoter une image en noir et blanc : le bouton en bas de l&#x27;image d&#x27;entrée le coupe.</p><nav><span>© 2026 LOGIQ IA</span><a href="presse/">Presse</a><a href="#">Mentions légales</a><a href="#">Contact</a></nav></footer>
+<script src="static/js/site.js"></script>
+</body>
+</html>
